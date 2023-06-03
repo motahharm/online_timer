@@ -1,0 +1,45 @@
+body {
+    flex-direction: column;
+}
+
+.timer, .timer_info {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timer_info {
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.timer .timer_info div, .timer .buttons a {
+    margin: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    min-width: 20vw;
+    text-align: center;
+    font-size: 15vw;
+    color: #999;
+    background-color: #222;
+}
+
+.timer .buttons a {
+    margin: 8px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 25px;
+    transition: .25s ease;
+    cursor: pointer;
+}
+.buttons a:hover {
+    background-color: #444;
+}

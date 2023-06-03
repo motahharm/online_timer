@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metatags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/timer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!-- Js -->
+    <script src="./assets/js/timer.js"></script>
+    <!-- Title -->
+    <title>12 Hour Clock</title>
+</head>
+<body onload="start_timer()">
+    <div class="timer">
+        <div class="timer_info">
+            <div id="hour">00</div>
+            <div id="minute">00</div>
+            <div id="second">00</div>
+        </div>
+        <div class="buttons">
+            <a class="button" onclick="start_stop()" id="start_stop">start</a>
+            <a class="button" onclick="reset()">reset</a>
+        </div>
+    </div>
+</body>
+</html>

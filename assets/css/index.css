@@ -1,0 +1,35 @@
+.hint {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vw;
+    background-color: #333;
+    color: #999;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: .25s ease-in-out;
+}
+
+.buttons a:hover {
+    background-color: #444;
+    color: #999;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
