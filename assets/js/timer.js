@@ -4,17 +4,17 @@ var minute = 0;
 var hour = 0;
 
 function start_timer() {
+    setTimeout(start_timer, 1000);
     if (working) {
         work_timer()
     };
-    setTimeout(start_timer, 1000);
 };
 
 function work_timer() {
-    if (second < 60) {
+    if (second < 59) {
         second += 1;
     } else {
-        if (minute < 60) {
+        if (minute < 59) {
             minute += 1;
         } else {
             hour += 1;
